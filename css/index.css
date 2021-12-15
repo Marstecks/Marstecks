@@ -1,0 +1,244 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f1f5f8;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    object-fit: cover;
+}
+input{
+    border: none;
+    background-color: inherit;
+}
+header{
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 1px 0;
+    border-bottom: 2px solid grey;
+    position: sticky;
+    top: 0;
+}
+header .main-header{
+    padding: 1px 0;
+    margin: 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    margin: 0 10px;
+}
+.header-logo img{
+    object-fit: fill;
+    border-radius: 50px;
+}
+header .user-option-box{
+    margin: 0 ;
+    padding: 0 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .user-option-box .user-account{ 
+    margin: 0 1.5vw;
+}
+
+.search-box{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.search-box input{
+    padding: 10px;
+    width: 70%;
+    font-size: 14px;
+    border-radius: 15vw;
+    text-align: center;
+    border: 2px solid grey;
+}
+h1{
+    margin: 0 10px;
+    text-align: center;
+}
+.nav-bar{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 13px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around ;
+}
+.nav-bar div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product-box{
+    width: 100%;
+    background-color: white;
+    padding: 0%;
+    margin: 20px 0;
+}
+.product-box .tag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 1%;
+    margin: 10px 0;
+    border-bottom: 1px solid grey;
+}
+.tag .tag-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.store-navigate{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.horizontal-scrollbar{
+    width: 100%;
+    padding: 10px 0%;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.product{
+    margin: 0 0.5vw;
+    padding: 0 10px;
+    border: 1px solid gray;
+    border-radius: 1vw;
+}
+.product-img img{
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+    width: 100%;
+}
+.product-details{
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+}
+.product-name img{
+    object-fit: cover;
+    border-radius: 25px;
+    margin: 3px;
+}
+.product-name{
+    display: flex;
+    align-items: center;
+}
+.rating-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-review{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px;
+}
+.user-review div{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 50px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #f1f5f8;
+}
+.add-to-cart{
+    padding: 2px ;
+    border-radius: 5px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.store{
+    margin: 0 0.5vw;
+    padding:  5px;
+    border: 1px solid gray;
+    border-radius: 1vw;
+}
+.store-id{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 5px ;
+    margin: 0 0 5px 0;
+
+}
+.store-name img{
+    border-radius: 25px;
+    object-fit: cover;
+    margin: 0 6px 0 0;
+}
+.store-name{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.store-name span{
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+    margin: 4px 0;
+    font-weight: bold;
+}
+.store-location{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: flex-end;
+    margin:0;
+    font-size: 13px;
+}
+.follow-btn{
+    padding: 2px ;
+    border-radius: 5px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;   
+}
+.follow-btn input{
+    font-size: 15px;
+    color: white;
+    margin: 0 5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+footer{
+    color: grey;
+    text-align: center;
+    margin: 10px;
+}

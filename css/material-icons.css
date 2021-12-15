@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(../iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+    url(../iconfont/MaterialIcons-Regular.woff) format('woff'),
+    url(../iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 36px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.material-icons.blue-color{
+  color: rgba(0, 0, 255 , 1);
+  font-size: 35px;
+}
+.material-icons.light-blue{
+  color: rgba(0, 0, 0, 0.5);
+}
+.material-icons.light-blue:hover{
+  background-color: rgba(0, 0, 255, 0.3);
+  color: blue;
+}
+.material-icons.md-light{
+  color: rgba(255, 255, 255, 1);
+}
+.material-icons.add-shopping-cart{
+  font-size: 30px;
+}
+.material-icons.rate{
+  color: orange;
+  font-size: 20px;
+  margin: 10px 0 4px;
+}
+.material-icons.user-review{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.material-icons.green-color{
+  font-size: 18px;
+  color: rgba(0, 255, 0 , 0.8);
+  margin: 0;
+  
+}
+.material-icons.follow-btn{
+  font-size: 19px;
+  font-family:  'Material Icons';
+  margin: 0;
+}

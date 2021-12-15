@@ -1,0 +1,132 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f1f5f8;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 5px 0%;
+    box-shadow: 2px 2px 3px 4px grey;
+}
+header .main-header{
+    padding: 3vh 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    margin: 0 2vw;
+}
+header .user-option-box{
+    width: 9vw;
+    margin: 0 ;
+    padding: 0 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .user-option-box .user-account{ 
+    margin: 0 1.5vw;
+}
+
+.search-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.search-box input{
+    padding: 5px;
+    width: 70%;
+    border-radius: 15vw;
+    text-align: center;
+}
+.nav-bar{
+    width: 100%;
+    margin: 45px 0;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly ;
+}
+.nav-bar p:hover{
+    width: 100%;
+    margin: 0;
+    padding: 1px 15px;
+    background-color: rgba(236, 237, 240, 1);
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.product-box{
+    width: 100%;
+    background-color: white;
+    padding: 0%;
+    margin: 20px 0;
+}
+.product-box .tag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 1%;
+    margin: 20px 0;
+    border-bottom: 1px solid grey;
+}
+.tag .tag-name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.horizontal-scrollbar{
+    width: 100%;
+    padding: 10px 0%;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.product{
+    margin: 0 0.5vw;
+    padding: 10px ;
+    border: 1px solid gray;
+    border-radius: 1vw;
+}
+.product-img img{
+  object-fit: cover;
+
+}
+.product-details{
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-name img{
+    object-fit: cover;
+    border-radius: 25px;
+    margin: 3px;
+}
+.product-name{
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+}
+.product-price{
+    font-size: 1vw;
+}
